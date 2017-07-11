@@ -35,7 +35,8 @@ def click_and_crop(event, x, y, flags, param):
     elif event == cv2.EVENT_LBUTTONUP:
         refPt.append((x,y))
         is_cropping = False
-        
+
+        refPt.sort()
         cv2.rectangle(image, refPt[0], refPt[1], (0, 255, 0), 2)
         cv2.imshow('Image', image)
 
