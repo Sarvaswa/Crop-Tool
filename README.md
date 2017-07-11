@@ -1,5 +1,5 @@
-# Crop_Tool
-A Command line tool for cropping images, written in Python.  
+# Crop Tool
+A Command Line Tool for cropping images, written in Python.  
 Inspired by Adrian Rosebrock's " Capturing mouse click events with Python and OpenCV " tutorial at the following link:  
 http://www.pyimagesearch.com/2015/03/09/capturing-mouse-click-events-with-python-and-opencv/
 
