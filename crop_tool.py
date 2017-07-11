@@ -37,6 +37,10 @@ def click_and_crop(event, x, y, flags, param):
         is_cropping = False
 
         refPt.sort()
+        if refPt[0][1] > refPt[1][1]:
+            pt1 = (refPt[0][0], refPt[1][1])
+            pt2 = (refPt[1][0], refPt[0][1])
+            refPt = [pt1, pt2]
         cv2.rectangle(image, refPt[0], refPt[1], (0, 255, 0), 2)
         cv2.imshow('Image', image)
 
