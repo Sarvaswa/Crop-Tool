@@ -4,10 +4,12 @@ Created on Thu Jul  6 18:17:18 2017
 
 @author: Sarvaswa
 """
+## CROP TOOL
 
-## Script to capture Click event and crop an image
-
+## Import for backward compatibility
 from __future__ import print_function
+from __future__ import division
+
 from win32api import GetSystemMetrics
 import argparse
 import cv2
