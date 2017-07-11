@@ -16,7 +16,8 @@ http://www.pyimagesearch.com/2015/03/09/capturing-mouse-click-events-with-python
 * Win32API (Install using ```pip install pypiwin32```)
 
 # Usage
-Open Commad Line and type the following command  
+Create a directory named 'Crops' inside the root directory of the project  
+Open Command Line and type the following command  
 ``` python crop_tool.py --image PATH_TO_IMAGE```  
 ```PATH_TO_IMAGE``` is the path of the image file you want to crop 
 
